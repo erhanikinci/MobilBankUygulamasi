@@ -32,7 +32,28 @@
       üzerinde sisteme yüklediği resim otomatik olarak basılır.
 ![kullaniciolusturmaekrani](https://user-images.githubusercontent.com/81168263/154992558-674886d5-742a-4fce-91ee-4973230d7f91.jpg)
 
+### Sisteme Giriş Ekranı
+    - Kullanıcı profilini oluşturduktan sonra Müşteri numarası ya da T.C kimlik numarası ile birlikte 
+      oluşturduğu parolasını girerek sisteme girişini gerçekleştirebilir.
+    - Aşağıdaki resimde görüldüğü gibi, beni hatırla iconuna tıklayarak  Müşteri/T.C numarasını daha 
+      sonraki sisteme girişinde otomatik olarak ekrana yazdırabilir ve yalnızca parolasını girerek
+      sisteme tekrar girişini gerçekleştirebilir. 
+    - Kullanıcı şifresini unuttuğunda, aşağıdaki resimde görüldüğü gibi şifremi unuttum butonuna tıklayarak 
+      kişisel bilgileri(T.C numarası gibi) ile birlikte tekrar yeni bir şifre oluşturabilir.
+    - Kullanıcı karekod butonu resmine tıklayarak, karekod işlemini başlatıp ATM’den hızlı bir şekilde
+      Para Çekme/Yatırma işlemlerini gerçekleştirebilir.
+    - Kullanıcı Yardım butonu resmine tıklayarak, Müşteri hizmetleri servisine bağlanıp bilgi alabilir.
+    - Aynı zamanda, Kullanıcı Yatırım/Borsa butonu resmine tıklayarak güncel döviz kurlarını görebilir.
 
+
+
+  
+
+  
+
+ 
+  
+  
 
 
       
