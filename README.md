@@ -81,8 +81,28 @@
     - Yatırım/Mobil Borsa, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
     
     - Anında Fatura Öde, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154997256-03c70717-92ba-44e3-b3d9-ecbf2c0cdf5c.jpg">
+</p> 
 
 
+
+### Kullanıcı Hesaplarım butonuna tıkladığında, aşağıdaki resimde görüldüğü gibi;
+     - Tüm Hesaplarım
+     
+     - Yeni Hesap Aç
+     
+     - Vadesiz Hesaplarım
+     
+     - Altın Hesaplarım
+     
+     - Kredi Hesaplarım
+     
+     - Yatırım Hesaplarım
+     
+     - POS
+     
+     - Kartlarım          butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
 
 
 
