@@ -168,7 +168,7 @@
     - Güvenli çıkış 
       ile istediği menü işlemleri ile alt menülere giderek istediği işlemi güvenle ve hızlı bir şekilde gerçekleştirebilir.
 <p align="center">
-  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/155000913-44a18d00-b0f2-4a3c-96d0-365545a1888e.jpg">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/155002018-d9862a9b-6c95-4953-9a7d-275b34aefe52.jpg">
 </p> 
 
      
