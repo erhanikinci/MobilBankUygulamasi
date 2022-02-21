@@ -1,0 +1,421 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.erhanikinci.denememenu.MainActivity" >
+
+
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_hesaplar"
+        android:onClick="mnu_hesaplar"
+        android:orderInCategory="100"
+        android:title="@string/hesaplarim"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subtumHesaplar"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subtumHesaplar"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subyeniHesapAc"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subyeniHesapAc"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subvadesizHesaplarim"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subvadesizHesaplarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subvadeliHesaplarim"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subvadeliHesaplarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subaltinHesaplarim"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subaltinHesaplarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkrediHesaplarim"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subkrediHesaplarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subyatirimHesaplarim"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subyatirimHesaplarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subpos"
+                    android:orderInCategory="100"
+                    android:title="@string/action_subpos"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subhesapKapat"
+                    android:orderInCategory="100"
+                    android:title="@string/hesap_kapat"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/action_paraTransferleri"
+        android:onClick="mnu_paratransferi"
+        android:orderInCategory="100"
+        android:title="@string/para_transferleri"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subhesaplarimArasi"
+                    android:orderInCategory="100"
+                    android:title="@string/hesaplarim_arasi_transfer"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbaskaHesabaHavaleEft"
+                    android:orderInCategory="100"
+                    android:title="@string/baskahesaba_havale_eft"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subhizliİslemler"
+                    android:orderInCategory="100"
+                    android:title="@string/hizli_islemler"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subcebeHavale"
+                    android:orderInCategory="100"
+                    android:title="@string/cebe_havale"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkrediKartinaTransfer"
+                    android:orderInCategory="100"
+                    android:title="@string/kredi_kartina_transfer"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkayitliAlicilarim"
+                    android:orderInCategory="100"
+                    android:title="@string/kayitli_alicilarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subtransferTalimatlarim"
+                    android:orderInCategory="100"
+                    android:title="@string/transfer_talimatlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subwesternUnion"
+                    android:orderInCategory="100"
+                    android:title="@string/western_union"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_kartlarim"
+        android:onClick="mnu_kartlarim"
+        android:orderInCategory="100"
+        android:title="@string/kartlarim"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subkrediKartlarim"
+                    android:orderInCategory="100"
+                    android:title="@string/kredi_kartlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbankaKartlarim"
+                    android:orderInCategory="100"
+                    android:title="@string/banka_kartlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subsanalKartlarim"
+                    android:orderInCategory="100"
+                    android:title="@string/sanal_kartlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkardGonderiTakib"
+                    android:orderInCategory="100"
+                    android:title="@string/kart_gonderi_takib"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_submobilTemassizOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/mobil_temassiz_odeme_tanimlama"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_paraOdemeler"
+        android:onClick="mnu_odemeler"
+        android:orderInCategory="100"
+        android:title="@string/odemeler"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subotomatikTalimatlar"
+                    android:orderInCategory="100"
+                    android:title="@string/otomatik_talimatlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkayitliOdemeler"
+                    android:orderInCategory="100"
+                    android:title="@string/kayitli_odemelerim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subfaturaOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/fatura_odeme"
+                    app:showAsAction="never">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/action_subElektrikFaturası"
+                                android:orderInCategory="100"
+                                android:title="@string/elektrik"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subdogalgazFaturası"
+                                android:orderInCategory="100"
+                                android:title="@string/dogalgaz"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subsuFaturasi"
+                                android:orderInCategory="100"
+                                android:title="@string/su"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subinternetFaturası"
+                                android:orderInCategory="100"
+                                android:title="@string/ınternet"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subtelefonFaturası"
+                                android:orderInCategory="100"
+                                android:title="@string/telefon"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subkiraFaturası"
+                                android:orderInCategory="100"
+                                android:title="@string/kira"
+                                app:showAsAction="never" />
+                        </group>
+                    </menu>
+                </item>
+                <item
+                    android:id="@+id/action_subcebeTlYukleme"
+                    android:orderInCategory="100"
+                    android:title="@string/cebe_tl_yukleme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkendiKrediKatrinaOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/kredi_kartima_odeme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbaskrediKartinaOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/baska_kredi_kartina_odeme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subtrafikOdemeleriOgsHgs"
+                    android:orderInCategory="100"
+                    android:title="@string/trafik_odemeleri_ogs_hgs"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subegitimSinavUniversiteler"
+                    android:orderInCategory="100"
+                    android:title="@string/egitim_sinav_universiteler"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subkrediOdemeleri"
+                    android:orderInCategory="100"
+                    android:title="@string/kredi_odemeleri"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subsigortaEmeklilik"
+                    android:orderInCategory="100"
+                    android:title="@string/sigorta_ve_emeklilik"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subdigerOdemeler"
+                    android:orderInCategory="100"
+                    android:title="@string/diger_odemeler"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_dovizAltin"
+        android:onClick="mnu_dovizaltin"
+        android:orderInCategory="100"
+        android:title="@string/doviz_ve_altin"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subdovizİslemleri"
+                    android:orderInCategory="100"
+                    android:title="@string/doviz_islemleri"
+                    app:showAsAction="never">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/action_subdovizAlis"
+                                android:orderInCategory="100"
+                                android:title="@string/doviz_alis"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subdovizSatis"
+                                android:orderInCategory="100"
+                                android:title="@string/doviz_satis"
+                                app:showAsAction="never" />
+                        </group>
+                    </menu>
+                </item>
+                <item
+                    android:id="@+id/action_subaltinİslemleri"
+                    android:orderInCategory="100"
+                    android:title="@string/altin_islemleri"
+                    app:showAsAction="never">
+                    <menu>
+                        <group>
+                            <item
+                                android:id="@+id/action_subaltinAlis"
+                                android:orderInCategory="100"
+                                android:title="@string/altin_alis"
+                                app:showAsAction="never" />
+                            <item
+                                android:id="@+id/action_subaltinSatis"
+                                android:orderInCategory="100"
+                                android:title="@string/altin_satis"
+                                app:showAsAction="never" />
+                        </group>
+                    </menu>
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_krediler"
+        android:onClick="mnu_krediler"
+        android:orderInCategory="100"
+        android:title="@string/krediler"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subdigitalKredi"
+                    android:orderInCategory="100"
+                    android:title="@string/digital_kredi"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbireyselKrediTaksitOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/bireysel_kredi_taksit_odeme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subtokiKrediTaksitOdeme"
+                    android:orderInCategory="100"
+                    android:title="@string/toki_kredi_taksit_odeme"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_QRIslemleri"
+        android:onClick="mnu_qrislemleri"
+        android:orderInCategory="100"
+        android:title="@string/qr_islemleri"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subparaCekme"
+                    android:orderInCategory="100"
+                    android:title="@string/para_cekme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subparaYatirma"
+                    android:orderInCategory="100"
+                    android:title="@string/para_yatirma"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subodeme"
+                    android:orderInCategory="100"
+                    android:title="@string/odeme"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_profilVeAyarlar"
+        android:onClick="mnu_profilayarlar"
+        android:orderInCategory="100"
+        android:title="@string/profil_ve_ayarlar"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/action_subanaSayfaDuzenleme"
+                    android:orderInCategory="100"
+                    android:title="@string/ana_sayfa_duzenleme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbilgilendirmeAyarlarim"
+                    android:orderInCategory="100"
+                    android:title="@string/bilgilendirme_ayarlarim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subguvenlikTercihi"
+                    android:orderInCategory="100"
+                    android:title="@string/guvenlik_tercihi"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subsifreDegistirme"
+                    android:orderInCategory="100"
+                    android:title="@string/sifre_degistirme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subbildirimler"
+                    android:orderInCategory="100"
+                    android:title="@string/bildirimler"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subepostaGonderimTercihi"
+                    android:orderInCategory="100"
+                    android:title="@string/e_posta_gonderim_tercihi_guncelleme"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subdigerTercihlerim"
+                    android:orderInCategory="100"
+                    android:title="@string/diger_tercihlerim"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_subiletisimBilgilerim"
+                    android:orderInCategory="100"
+                    android:title="@string/iletisim_bilgilerim"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+
+        android:id="@+id/action_guvenliCikis"
+        android:onClick="mnu_guvenlicikis"
+        android:orderInCategory="100"
+        android:title="@string/guvenli_cikis"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="25dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnaSayfa"
+                android:text="Ana Sayfa"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"/>
+
+            <Button
+                android:id="@+id/btnParaAktar"
+                android:layout_marginLeft="1dp"
+                android:text="Para Gönder"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"/>
+
+            <Button
+                android:id="@+id/btnOdemeYap"
+                android:layout_marginLeft="1dp"
+                android:text="Ödeme Yap"
+                android:background="@color/white"
+                android:layout_width="160dp"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="25dp">
+
+        <RelativeLayout
+            android:id="@+id/btnKartlarim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="KARTLARIM"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/dark_blue"
+                android:textColor="@color/white"
+                android:text="@string/kredi_kartlar_m"
+                android:contextClickable="true"
+                android:textSize="25sp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bankaKartlarim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/dark_blue"
+                android:textColor="@color/white"
+                android:text="@string/banka_kartlar_m"
+                android:id="@+id/bankKartlarim"
+                android:contextClickable="true"
+                android:textSize="25sp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/dark_blue"
+                android:textColor="@color/white"
+                android:text="@string/sanal_kartlar_m"
+                android:contextClickable="true"
+                android:textSize="25sp"
+                android:hint="">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/dark_blue"
+                android:textColor="@color/white"
+                android:text="@string/kart_g_nderi_takip"
+                android:contextClickable="true"
+                android:textSize="25sp"
+                android:hint="">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/dark_blue"
+                android:textColor="@color/white"
+                android:text="@string/kart_temass_z_deme_tan_mlama"
+                android:contextClickable="true"
+                android:textSize="25sp"
+                android:hint="">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+

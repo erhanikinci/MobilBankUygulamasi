@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">İKİNCİ Bank</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_hesaplar">Hesaplar</string>
+    <string name="action_subtumHesaplar">Tüm Hesaplarım</string>
+    <string name="action_subyeniHesapAc">Yeni Hesap Aç</string>
+    <string name="action_subvadesizHesaplarim">Vadesiz Hesaplarım</string>
+    <string name="action_subvadeliHesaplarim">Vadeli Hesaplarım</string>
+    <string name="action_subaltinHesaplarim">Altın Hesaplarım</string>
+    <string name="action_subkrediHesaplarim">Kredi Hesaplarım</string>
+    <string name="action_subyatirimHesaplarim">Yatırım Hesaplarım</string>
+    <string name="action_subpos">POS</string>
+    <string name="action_paraTransferleri">Para Transferleri</string>
+    <string name="action_subhesaplarimArasi">Hesaplarım Arası</string>
+    <string name="action_subbaskaHesabaHavaleEft">Başka Hesaba Havale/EFT</string>
+    <string name="action_subhizliİslemler">Hızlı İşlemler</string>
+    <string name="action_subcebeHavale">Cebe Havale</string>
+    <string name="action_subkrediKartinaTransfer">Kredi Kartına Transfer</string>
+    <string name="action_subkayitliAlicilarim">Kayıtlı Alıcılarım</string>
+    <string name="action_subtransferTalimatlarim">Transfer Talimatlarım</string>
+    <string name="action_subwesternUnion">Western Union</string>
+    <string name="action_kartlarim">Kartlarım</string>
+    <string name="action_subkrediKartlarim">Kredi KArtlarım</string>
+    <string name="action_subbankaKartlarim">Banka Kartlarım</string>
+    <string name="action_subsanalKartlarim">Sanal Kartlarım</string>
+    <string name="action_subkardGonderiTakib">Kart Gönderi Takibi</string>
+    <string name="action_submobilTemassizOdeme">Mobil Temassız Ödeme</string>
+    <string name="action_paraOdemeler">Ödemeler</string>
+    <string name="action_subotomatikTalimatlar">Otomatik Talimatlar</string>
+    <string name="action_subkayitliOdemeler">Kayıtlı Ödemeler</string>
+    <string name="action_subfaturaOdeme">Fatura Ödeme</string>
+    <string name="action_subcebeTlYukleme">Cebe TL Yükleme</string>
+    <string name="action_subkendiKrediKatrinaOdeme">Kredi Kartıma Ödeme</string>
+    <string name="action_subbaskrediKartinaOdeme">Başka Kredi Kardtına Ödeme</string>
+    <string name="action_subtrafikOdemeleriOgsHgs">Trafik Ödemeleri OGS/HGS</string>
+    <string name="action_subegitimSinavUniversiteler">Eğitim, Sınav, Üniversiteler</string>
+    <string name="action_subkrediOdemeleri">Kredi Ödemeleri</string>
+    <string name="action_subsigortaEmeklilik">Sigorta Emeklilik</string>
+    <string name="action_subdigerOdemeler">Diğer Ödemeler</string>
+    <string name="action_subdovizİslemleri">Döviz İşlemleri</string>
+    <string name="action_subdovizAlis">Döviz Alış</string>
+    <string name="action_subdovizSatis">Döviz Satış</string>
+    <string name="action_subaltinİslemleri">Altın İşlemleri</string>
+    <string name="action_subaltinAlis">Altın Alış</string>
+    <string name="action_subaltinSatis">Altın Satış</string>
+    <string name="action_subdigitalKredi">Dijital Kredi</string>
+    <string name="action_subbireyselKrediTaksitOdeme">Bireysel Kredi Taksit Ödeme</string>
+    <string name="action_subtokiKrediTaksitOdeme">Toki Kredi Taksit Ödeme</string>
+    <string name="action_subparaCekme">Para Çekme</string>
+    <string name="action_subparaYatirma">Para Yatırma</string>
+    <string name="action_subodeme">Ödeme</string>
+    <string name="action_subanaSayfaDuzenleme">Ana Sayfa Düzenleme</string>
+    <string name="action_subbilgilendirmeAyarlarim">Bilgilendirme Ayarlarım</string>
+    <string name="action_subguvenlikTercihi">Güvenlik Tercihi</string>
+    <string name="action_subsifreDegistirme">Şifre Değiştime</string>
+    <string name="action_subbildirimler">Bildirimler</string>
+    <string name="action_subepostaGonderimTercihi">E-posta Gönderim Tercihi</string>
+    <string name="action_subdigerTercihlerim">Diğer Tercihlerim</string>
+    <string name="action_subiletisimBilgilerim">İletişim Bilgilerim</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="anket_fragment_label">Anket Fragment</string>
+    <string name="fift_fragment_label">Fift Fragment</string>
+
+
+
+
+
+    //Anket Bilgileri
+    
+    <string name="alfabe">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    
+    <string name="adiniz">Adınız:</string>
+    <string name="soyadiniz">Soyadınız:</string>
+    <string name="t_c_no">T.C No:</string>
+    <string name="gsm_cep">GSM(Cep):</string>
+    <string name="medeni_hal">Medeni Hal</string>
+    <string name="evli">Evli</string>
+    <string name="bekar">Bekar</string>
+    <string name="dogum_yeriniz">Doğum Yeriniz:</string>
+    <string name="orenim_durumu">Öğrenim Durumu:</string>
+    <string name="adresiniz">Adresiniz:</string>
+    <string name="spor">Spor</string>
+    <string name="dans">Dans</string>
+    <string name="muzik">Müzik</string>
+    <string name="sinema">Sinema</string>
+    <string name="resim">Resim</string>
+    <string name="fotografcilik">Fotoğrafçılık</string>
+    <string name="dagcilik">Dağcılık</string>
+    <string name="tiyatro">Tiyatro</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="sonuc">Sonuç:</string>
+    <string name="orenimdurumu">Öğrenim Durumu:</string>
+    <string name="tarihseciniz">Tarih Seçiniz</string>
+
+
+
+
+
+
+
+    //1.sayfa
+    <string name="banka_bilgileri">Banka Bilgileri</string>
+    <string name="mobil_bankacilik_uygulamamiza_hos_geldiniz">Mobil Bankacılık uygulamamıza Hoş Geldiniz</string>
+    <string name="kullanici_resmi">Kullanıcı Resmi</string>
+    <string name="sifre">Şifre</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="kaydol">Kaydol</string>
+    <string name="ıptal">İptal</string>
+
+
+
+    //2.sayfa
+    <string name="bankLogo">bankLogo</string>
+    <string name="tvMusteriTcNo">   Müşteri/T.C Kimlik Numarası</string>
+    <string name="parola">   Parola</string>
+    <string name="giris">GİRİŞ</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="beni_hatirla">Beni Hatırla</string>
+
+
+
+    //Menü ayarları
+    <string name="hesaplarim">Hesaplarım</string>
+    <string name="para_transferleri">Para Transferleri</string>
+    <string name="kartlarim">Kartlarım</string>
+    <string name="odemeler">Ödemeler</string>
+    <string name="doviz_ve_altin">Döviz ve Altın</string>
+    <string name="krediler">Krediler</string>
+    <string name="qr_islemleri">QR İşlemleri</string>
+    <string name="profil_ve_ayarlar">Profil ve Ayarlar</string>
+    <string name="guvenli_cikis">Güvenli Çıkış</string>
+    <string name="hesaplarim_arasi_transfer">Hesaplarım Arası Transfer</string>
+    <string name="baskahesaba_havale_eft">BaşkaHesaba Havale/EFT</string>
+    <string name="hizli_islemler">Hızlı İşlemler</string>
+    <string name="cebe_havale">Cebe Havale</string>
+    <string name="kredi_kartina_transfer">Kredi Kartına Transfer</string>
+    <string name="kayitli_alicilarim">Kayıtlı Alıcılarım</string>
+    <string name="transfer_talimatlarim">Transfer Talimatlarım</string>
+    <string name="western_union">Western Union</string>
+    <string name="kredi_kartlarim">Kredi Kartlarım</string>
+    <string name="banka_kartlarim">Banka Kartlarım</string>
+    <string name="sanal_kartlarim">Sanal Kartlarım</string>
+    <string name="kart_gonderi_takib">Kart Gönderi Takib</string>
+    <string name="mobil_temassiz_odeme_tanimlama">Mobil Temassız Ödeme Tanımlama</string>
+    <string name="otomatik_talimatlarim">Otomatik Talimatlarım</string>
+    <string name="kayitli_odemelerim">Kayıtlı Ödemelerim</string>
+    <string name="fatura_odeme">Fatura Ödeme</string>
+    <string name="cebe_tl_yukleme">Cebe TL Yükleme</string>
+    <string name="kredi_kartima_odeme">Kredi Kartıma Ödeme</string>
+    <string name="baska_kredi_kartina_odeme">Başka Kredi Kartına Ödeme</string>
+    <string name="trafik_odemeleri_ogs_hgs">Trafik Öemeleri/OGS/HGS</string>
+    <string name="egitim_sinav_universiteler">Eğitim, Sınav, Üniversiteler</string>
+    <string name="kredi_odemeleri">Kredi Ödemeleri</string>
+    <string name="sigorta_ve_emeklilik">Sigorta ve Emeklilik</string>
+    <string name="diger_odemeler">Diğer Ödemeler</string>
+    <string name="doviz_islemleri">Döviz İşlemleri</string>
+    <string name="doviz_alis">Döviz Alış</string>
+    <string name="doviz_satis">Döviz Satış</string>
+    <string name="altin_islemleri">Altın İşlemleri</string>
+    <string name="altin_alis">Altın Alış</string>
+    <string name="altin_satis">Altın Satış</string>
+    <string name="digital_kredi">Diğital Kredi</string>
+    <string name="bireysel_kredi_taksit_odeme">Bireysel Kredi Taksit Ödeme</string>
+    <string name="toki_kredi_taksit_odeme">Toki Kredi Taksit Ödeme</string>
+    <string name="para_cekme">Para Çekme</string>
+    <string name="para_yatirma">Para Yatırma</string>
+    <string name="odeme">Ödeme</string>
+    <string name="ana_sayfa_duzenleme">Ana Sayfa Düzenleme</string>
+    <string name="bilgilendirme_ayarlarim">Bilgilendirme Ayarlarım</string>
+    <string name="guvenlik_tercihi">Güvenlik Tercihi</string>
+    <string name="sifre_degistirme">Şifre Değiştirme</string>
+    <string name="bildirimler">Bildirimler</string>
+    <string name="e_posta_gonderim_tercihi_guncelleme">E-posta Gönderim Tercihi Güncelleme</string>
+    <string name="diger_tercihlerim">Diğer Tercihlerim</string>
+    <string name="iletisim_bilgilerim">İletişim Bilgilerim</string>
+    <string name="elektrik">Elektrik</string>
+    <string name="dogalgaz">Doğalgaz</string>
+    <string name="ınternet">İnternet</string>
+    <string name="telefon">Telefon</string>
+    <string name="kira">Kira</string>
+    <string name="su">Su</string>
+    <string name="hesap_kapat">Hesap Kapat</string>
+
+
+
+
+    //3.Sayfa Card Bilgileri
+    <string name="erhan_ikinci">Erhan İKİNCİ</string>
+    <string name="_8801_5660_0001_4153">8801 5660 0001 4153</string>
+    <string name="skt_2024">Skt. 2024</string>
+    <string name="banka_bilgilerini_duzenle">Banka Bilgilerini Düzenle</string>
+    <string name="erhan_ikinci_kullanici">erhanikinci</string>
+    <string name="kart_bilgilerim">Kart Bilgilerim</string>
+    <string name="hobileriniz_var_mi">Hobileriniz Var Mı ?</string>
+    <string name="dogum_tarihiniz">Doğum Tarihiniz:</string>
+    <string name="acik">Açık</string>
+    <string name="kapali">Kapalı</string>
+    <string name="tx_sonuc">Sonuç</string>
+
+
+
+    //fragment_yatirim_işlemleri
+
+    <string name="yatirim">Yatırım İşlemleri Döviz / Altın </string>
+    <string name="logo">Logo</string>
+    <string name="dolar">Amerikan Doları Alış/Satış :</string>
+    <string name="euro">Euro</string>
+    <string name="altin">Altın</string>
+    <string name="canada">Canada</string>
+    <string name="sterlin">Sterlin</string>
+    <string name="ruble">Ruble</string>
+    <string name="dolar_alis">Dolar Alış :</string>
+    <string name="euro_alis">Euro Alış/Satış :</string>
+    <string name="sterlin_alis">"Sterlin Alış/Satış : "</string>
+    <string name="canada_alis">Canada Doları Alış/Satış :</string>
+    <string name="ruble_alis">"Ruble Alış/Satış : "</string>
+    <string name="yatirim_islemleri_fragment_label">Yatirim İslemleri Fragment</string>
+    <string name="btn_ruble_alis">Ruble Alış</string>
+    <string name="canada_dolar_al_sat">Canada Doları Alış/Satış</string>
+    <string name="sterlin_al_sat">Sterlin Alış/Satış</string>
+    <string name="alt_n_al_sat_s">Altın Alış/Satıs</string>
+    <string name="euro_al_sat">Euro Alış/Satış</string>
+    <string name="amerikan_dolar_al_sat">Amerikan Doları Alış/Satış</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="toplam">TOPLAM</string>
+    <string name="vadesiz_hesap">Vadesiz Hesap</string>
+    <string name="vadesiz_hesaplarim">Vadesiz Hesaplarım</string>
+    <string name="vadeli_hesapl_m">Vadeli Hesaplım</string>
+    <string name="yat_r_m_r_nlerim">Yatırım Ürünlerim</string>
+    <string name="anasayfa_fragment_label">Ana Sayfa Fragment</string>
+
+
+    //4.sayfa Ana Sayfa
+    <string name="tum_hesaplarim">Tüm Hesaplarım</string>
+    <string name="yeni_hesap_a">Yeni Hesap Aç</string>
+    <string name="vadesiz_hesaplar_m">Vadesiz Hesaplarım</string>
+    <string name="alt_n_hesaplar_m">Altın Hesaplarım</string>
+    <string name="kredi_hesaplar_m">Kredi Hesaplarım</string>
+    <string name="yat_r_m_hesaplar_m">Yatırım Hesaplarım</string>
+    <string name="pos">POS</string>
+    <string name="kartlar_m">Kartlarım</string>   <string name="kredi_kartlar_m">Kredi Kartlarım</string>
+    <string name="banka_kartlar_m">Banka Kartlarım</string>
+    <string name="sanal_kartlar_m">Sanal Kartlarım</string>
+    <string name="rltkartlar_m">Kartlarım</string>
+    <string name="kart_temass_z_deme_tan_mlama">Kart Temassız Ödeme Tanımlama</string>
+    <string name="kart_g_nderi_takip">Kart Gönderi Takip</string>
+    <string name="bankakartim_fragment_label">Banka Kartlarım Fragment</string>
+    <string name="yatirim_fragment_label">Yatırım Fragment</string>
+    <string name="genel_fragment_label">Genel Fragment</string>
+    <string name="kulland_n_z_di_er_bank_uygulamalar">Kullandığınız Diğer Bank Uygulamalar</string>
+    <string name="ziraat_bank">Ziraat Bank</string>
+    <string name="is_bank">İş Bank</string>
+    <string name="ak_bank">Ak Bank</string>
+    <string name="ing_bank">ING bank</string>
+    <string name="vak_f_bank">Vakıf Bank</string>
+    <string name="teb_bank">TEB Bank</string>
+    <string name="fiba_bank">Fiba Bank</string>
+    <string name="seker_bank">Şeker Bank</string>
+
+
+</resources>

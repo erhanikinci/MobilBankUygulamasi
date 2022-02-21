@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SecondFragment"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+    <ImageView
+        android:id="@+id/ivBankLogo"
+        android:layout_width="189dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="110dp"
+        android:contentDescription="@string/bankLogo"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ivBankLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="72dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/tvMusteriTcNo"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <EditText
+        app:passwordToggleEnabled="true"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/etUser"
+        android:layout_alignStart="@+id/etUser"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="72dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_action_password"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="@string/parola"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="16sp"
+        tools:ignore="TextFields" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/colorCard"
+        app:cardCornerRadius="25dp">
+
+        <RelativeLayout
+            android:id="@+id/rlt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="GİRİŞ"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/frgtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="Şifremi Unuttum"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/colorWhite"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/colorWhite"
+        android:textColorLink="@color/colorWhite"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/chkBeniHatirla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignStart="@id/etPassword"
+        android:layout_alignLeft="@id/etPassword"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp"
+        android:buttonTint="@color/colorWhite"
+        android:text="  Beni Hatırla"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivKarekodLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/karekodlogo" />
+
+        <ImageView
+            android:id="@+id/ivCalCenter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/callcenterlogo" />
+
+        <ImageView
+            android:id="@+id/ivFinanceLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/financelogo" />
+    </LinearLayout>
+
+
+</RelativeLayout>

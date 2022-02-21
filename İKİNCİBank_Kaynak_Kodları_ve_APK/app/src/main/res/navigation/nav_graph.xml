@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AnketFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.erhanikinci.denememenu.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.erhanikinci.denememenu.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_SecondFragment_to_GenelFragment"
+            app:destination="@id/GenelFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/GenelFragment"
+        android:name="com.erhanikinci.denememenu.GenelFragment"
+        android:label="@string/genel_fragment_label"
+        tools:layout="@layout/fragment_genel" >
+        <action
+            android:id="@+id/action_GenelFragment_to_AnaSayfaFragment"
+            app:destination="@id/AnaSayfaFragment" />
+    </fragment>
+
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.erhanikinci.denememenu.ThirdFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_ThirdFragment_to_FiftFragment"
+            app:destination="@id/FiftFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/AnketFragment"
+        android:name="com.erhanikinci.denememenu.AnketFragment"
+        android:label="@string/anket_fragment_label"
+        tools:layout="@layout/fragment_anket" >
+        <action
+            android:id="@+id/action_AnketFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/FiftFragment"
+        android:name="com.erhanikinci.denememenu.FiftFragment"
+        android:label="@string/fift_fragment_label"
+        tools:layout="@layout/fragment_fift" >
+        <action
+            android:id="@+id/action_FiftFragment_to_AnketFragment"
+            app:destination="@id/AnketFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/AnaSayfaFragment"
+        android:name="com.erhanikinci.denememenu.AnaSayfaFragment"
+        android:label="@string/anasayfa_fragment_label"
+        tools:layout="@layout/fragment_anasayfa" >
+
+        <action
+            android:id="@+id/action_AnaSayfaFragment_to_KartlarimFragment"
+            app:destination="@id/KartlarimFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/KartlarimFragment"
+        android:name="com.erhanikinci.denememenu.KartlarimFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_kartlarim" >
+        <action
+            android:id="@+id/action_KartlarimFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</navigation>

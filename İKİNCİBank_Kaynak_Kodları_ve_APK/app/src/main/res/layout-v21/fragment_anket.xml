@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_first_page_details"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adiniz"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etName"
+            android:digits="@string/alfabe"
+            android:layout_marginStart="50dp"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="LabelFor">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soyadiniz"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etSurName"
+            android:digits="@string/alfabe"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t_c_no"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etTcNo"
+            android:layout_marginStart="50dp"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gsm_cep"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etPhoneNumber"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="number"
+            tools:ignore="LabelFor,TextFields" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medeni_hal"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioGroup
+            android:layout_marginTop="5dp"
+            android:id="@+id/radioGroupMedeni"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/radioEvli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/evli"
+                tools:ignore="RtlHardcoded" />
+
+            <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/radioBekar"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bekar"
+            android:checked="true"
+            tools:ignore="RtlHardcoded" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dogum_tarihiniz"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        </TextView>
+
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnDateDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarih"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dogum_yeriniz"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etDateCountry"
+            android:layout_marginStart="15dp"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="LabelFor,TextFields" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adresiniz"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/etAdress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+
+    </LinearLayout>
+
+
+    <Switch
+        android:layout_marginTop="5dp"
+        android:id="@+id/swDigerBanklar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kulland_n_z_di_er_bank_uygulamalar"
+        android:textOn="@string/acik"
+        android:textOff="@string/kapali"
+        android:checked="true"
+        android:showText="false"
+        android:textSize="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <GridLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/gridLayoutHobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:rowCount="2"
+        android:columnCount="4">
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkSpor"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ziraat_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkDans"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/is_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkMuzik"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ak_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkSinema"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ing_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkResim"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vak_f_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkFotograf"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teb_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkDagcilik"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fiba_bank"/>
+
+        <CheckBox
+            android:layout_marginTop="5dp"
+            android:id="@+id/chkTiyatro"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seker_bank"/>
+
+    </GridLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnKaydet"
+        android:text="@string/kaydet"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_sonuc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
