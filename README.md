@@ -104,7 +104,9 @@
      
      - Kartlarım          butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
 
-
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154997256-03c70717-92ba-44e3-b3d9-ecbf2c0cdf5c.jpg">
+</p> 
 
 
 
