@@ -24,6 +24,16 @@
     kaydını gerçekleştirebilir.
 ![kayitekrani](https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg)
 
+### Kullanıcı Oluşturma Ekranı
+    - Kullanıcın banka sistemine kaydı esnasında bir profil oluşturması beklenir. Aşağıda görüldüğü gibi bir ekran
+      ile karşılaşır. Kendisi için bir kullanıcı adı ve şifre oluşturur.
+    - Kullanıcı eğer isterse bankaya giriş esnasında kendine ait bir profil resmide sisteme yükleyebilir.
+    - Kullanıcı sisteme bir profil resmi yüklerse, bankanın kullanıcı için oluşturduğu banka kartının
+      üzerinde sisteme yüklediği resim otomatik olarak basılır.
+
+
+
+
 
       
     
