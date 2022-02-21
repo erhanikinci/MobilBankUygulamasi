@@ -102,16 +102,28 @@
 
                - POS
 
-               - Kartlarım          butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
-
+               - Kartlarım          
+                    butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
 <p align="center">
   <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154998061-4b2b39e6-0bd5-417e-bbff-49ae44ccdcf0.jpg">
 </p> 
 
 
+### Kullanıcı Kartlarım butonuna tıkladığında, aşağıdaki resimde görüldüğü gibi;
+               - Kredi Kartlarım
 
-      
+               - Banka Kartlarım
+
+               - Sanal Kartlarım
+
+               - Kart Gönderi Takip     
+               
+               - Kart Temassız Ödeme Tanımlama         
+                    butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
   
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154998061-4b2b39e6-0bd5-417e-bbff-49ae44ccdcf0.jpg">
+</p> 
 
  
   
