@@ -70,17 +70,17 @@
 
 
 ### Giriş Ekranı
-    - Kullanıcı, Müşteri/T.C numarasını ve parolasını sisteme girdikten sonra kullanıcıyı AŞAĞIDAKİ şekilde
-      görüldüğü gibi bir ekran ile karşılar. Bu ekranın üst panelinde Ana Sayfa, Para Gönder, Ödeme Yap
-      işlemleri ile istediği işlemi hızlı bir şekilde başlatabilir.
-      
-    - Hesaplarım, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+         - Kullanıcı, Müşteri/T.C numarasını ve parolasını sisteme girdikten sonra kullanıcıyı AŞAĞIDAKİ şekilde
+           görüldüğü gibi bir ekran ile karşılar. Bu ekranın üst panelinde Ana Sayfa, Para Gönder, Ödeme Yap
+           işlemleri ile istediği işlemi hızlı bir şekilde başlatabilir.
 
-    - Kartlarım, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
-    
-    - Yatırım/Mobil Borsa, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
-    
-    - Anında Fatura Öde, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+         - Hesaplarım, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+
+         - Kartlarım, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+
+         - Yatırım/Mobil Borsa, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
+
+         - Anında Fatura Öde, butonuna tıklayarak bulunan tüm hesapları ile işlemlerini gözlemleyebilir.
 <p align="center">
   <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154997256-03c70717-92ba-44e3-b3d9-ecbf2c0cdf5c.jpg">
 </p> 
@@ -88,24 +88,24 @@
 
 
 ### Kullanıcı Hesaplarım butonuna tıkladığında, aşağıdaki resimde görüldüğü gibi;
-     - Tüm Hesaplarım
-     
-     - Yeni Hesap Aç
-     
-     - Vadesiz Hesaplarım
-     
-     - Altın Hesaplarım
-     
-     - Kredi Hesaplarım
-     
-     - Yatırım Hesaplarım
-     
-     - POS
-     
-     - Kartlarım          butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
+               - Tüm Hesaplarım
+
+               - Yeni Hesap Aç
+
+               - Vadesiz Hesaplarım
+
+               - Altın Hesaplarım
+
+               - Kredi Hesaplarım
+
+               - Yatırım Hesaplarım
+
+               - POS
+
+               - Kartlarım          butonları açılır. Kullanıcı bunlardan istediğine tıklayarak işlemlerini gerçekleştirebilir.
 
 <p align="center">
-  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154997256-03c70717-92ba-44e3-b3d9-ecbf2c0cdf5c.jpg">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154998061-4b2b39e6-0bd5-417e-bbff-49ae44ccdcf0.jpg">
 </p> 
 
 
