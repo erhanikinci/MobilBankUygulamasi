@@ -22,7 +22,7 @@
 ### Kayıt Ekranı
     - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sistemine
     kaydını gerçekleştirebilir.
-
+![kayitekrani](https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg)
 
 
       
