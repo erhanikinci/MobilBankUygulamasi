@@ -14,8 +14,15 @@
     
 ## Uygulamanın Yüklenmesi ve Çalıştırılması İşlemi
     - Uygulamayı Google Play Store, Apple Store yada APK dosyasından cihazınıza yükleyerek kullanıma başlayabilirsiniz.
-    - Uygulamayı cep telefonuza indirip yüklediğinizde, aşağıdaki resimde(ekran görüntüsü) görülen icon resmi ile
-    cihazınıza yüklenmiş ve çalışır halde görülür.
+    - Uygulamayı cep telefonuza indirip yüklediğinizde, Aşağıdaki resimde(ekran görüntüsü) görülen icon resmi ile
+      cihazınıza yüklenmiş ve çalışır halde görülür.
+    - İcon’a tıklandığında uygulama çalışmaya başlayacaktır.
+![Screenshot_2021-01-06-19-52-20-701_com miui home](https://user-images.githubusercontent.com/81168263/154986057-7345195e-3772-477c-acba-2f120cf54257.jpg)
+
+### Kayıt Ekranı
+    - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sistemine
+    kaydını gerçekleştirebilir.
+
 
 
       
