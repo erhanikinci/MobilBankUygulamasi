@@ -28,7 +28,7 @@
 
 ### Kayıt Ekranı
     - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sisteme
-      kaydını gerçekleştirebilir.
+      kaydını gerçekleştirebilir. 
  <p align="center">
   <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg">
 </p>
