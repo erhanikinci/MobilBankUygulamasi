@@ -30,7 +30,7 @@
     - Kullanıcı eğer isterse bankaya giriş esnasında kendine ait bir profil resmide sisteme yükleyebilir.
     - Kullanıcı sisteme bir profil resmi yüklerse, bankanın kullanıcı için oluşturduğu banka kartının
       üzerinde sisteme yüklediği resim otomatik olarak basılır.
-
+![kullaniciolusturmaekrani](https://user-images.githubusercontent.com/81168263/154992558-674886d5-742a-4fce-91ee-4973230d7f91.jpg)
 
 
 
