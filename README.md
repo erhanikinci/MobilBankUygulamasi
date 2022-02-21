@@ -155,8 +155,23 @@
 
 
 
+### Kullanıcı İKİNCİ Bank yazısının yanında bulunan üç noktaya tıkladığında aşağıdaki resimdeki gibi menü butonları açılır ve kullanıcı bunlardan;
+   - Amerikan doları Alış/Satış
+   - Ayarlar
+   - Hesaplarım >
+   - Para Transferleri >
+   - Kartlarım >
+   - Ödemeler >
+   - Döviz ve Altın >
+   - Krediler >
+   - QR İşlemleri >
+   - Profil ve Ayarlar >
+   - Güvenli çıkış 
 
-
+         ile istediği menü işlemleri ile alt menülere giderek istediği işlemi güvenle ve hızlı bir şekilde gerçekleştirebilir.
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/155000913-44a18d00-b0f2-4a3c-96d0-365545a1888e.jpg">
+</p> 
 
      
 
