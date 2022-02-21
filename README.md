@@ -1,4 +1,4 @@
-# Mobil Banka Uygulaması
+# MOBİL BANKA UYGULAMASI
      - Mobil Bankacılık: Mobil telefon ve dijital kişisel yardımcılar aracılığıyla müşterilerin bankayla etkileşimde
      bulunduğu bir kanal olarak görülmektedir. Akıllı telefonların yaygınlaşmasıyla beraber mobil bankacılık
      uygulamaları da yaygın hale gelmiştir.
