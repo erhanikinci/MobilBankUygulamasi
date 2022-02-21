@@ -11,21 +11,23 @@
     - Proje Android Studio IDE ile açılıp build yapılıp çalıştırılır.
     - Açılan Emulator ekranı ya da uygulamaya dışarıdan bağlanan Android cihaz ile run edilir.
     
-    
 ## Uygulamanın Yüklenmesi ve Çalıştırılması İşlemi
     - Uygulamayı Google Play Store, Apple Store yada APK dosyasından cihazınıza yükleyerek kullanıma başlayabilirsiniz.
     - Uygulamayı cep telefonuza indirip yüklediğinizde, Aşağıdaki resimde(ekran görüntüsü) görülen icon resmi ile
       cihazınıza yüklenmiş ve çalışır halde görülür.
     - İcon’a tıklandığında uygulama çalışmaya başlayacaktır.
- <p align="center">
-  <>
-</p>   
-![Screenshot_2021-01-06-19-52-20-701_com miui home](https://user-images.githubusercontent.com/81168263/154986057-7345195e-3772-477c-acba-2f120cf54257.jpg)
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154986057-7345195e-3772-477c-acba-2f120cf54257.jpg">
+</p>
+
 
 ### Kayıt Ekranı
     - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sisteme
     kaydını gerçekleştirebilir.
-![kayitekrani](https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg)
+ <p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg">
+</p>
+    
 
 ### Kullanıcı Oluşturma Ekranı
     - Kullanıcın banka sistemine kaydı esnasında bir profil oluşturması beklenir. Aşağıda görüldüğü gibi bir ekran
@@ -33,7 +35,10 @@
     - Kullanıcı eğer isterse bankaya giriş esnasında kendine ait bir profil resmide sisteme yükleyebilir.
     - Kullanıcı sisteme bir profil resmi yüklerse, bankanın kullanıcı için oluşturduğu banka kartının
       üzerinde sisteme yüklediği resim otomatik olarak basılır.
-![kullaniciolusturmaekrani](https://user-images.githubusercontent.com/81168263/154992558-674886d5-742a-4fce-91ee-4973230d7f91.jpg)
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154992558-674886d5-742a-4fce-91ee-4973230d7f91.jpg">
+</p>   
+
 
 ### Sisteme Giriş Ekranı
     - Kullanıcı profilini oluşturduktan sonra Müşteri numarası ya da T.C kimlik numarası ile birlikte 
@@ -47,7 +52,10 @@
       Para Çekme/Yatırma işlemlerini gerçekleştirebilir.
     - Kullanıcı Yardım butonu resmine tıklayarak, Müşteri hizmetleri servisine bağlanıp bilgi alabilir.
     - Aynı zamanda, Kullanıcı Yatırım/Borsa butonu resmine tıklayarak güncel döviz kurlarını görebilir.
-![Sisteme Giriş Ekranı](https://user-images.githubusercontent.com/81168263/154994255-28568510-90f9-4f59-ae30-8ffe4c44f9d3.jpg )
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/154994255-28568510-90f9-4f59-ae30-8ffe4c44f9d3.jpg">
+</p> 
+
 
 
   
