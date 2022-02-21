@@ -20,7 +20,7 @@
 ![Screenshot_2021-01-06-19-52-20-701_com miui home](https://user-images.githubusercontent.com/81168263/154986057-7345195e-3772-477c-acba-2f120cf54257.jpg)
 
 ### Kayıt Ekranı
-    - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sistemine
+    - Uygulama açıldığında  aşağıdaki ekranda görüldüğü gibi Kullanıcı, kişisel bilgilerini girerek banka sisteme
     kaydını gerçekleştirebilir.
 ![kayitekrani](https://user-images.githubusercontent.com/81168263/154991533-ec87022b-9f64-44c4-9634-ec6715af7dd8.jpg)
 
