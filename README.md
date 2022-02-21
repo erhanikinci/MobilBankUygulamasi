@@ -141,6 +141,20 @@
 
 
 
+### Yatırım Mobil/Borsa butonuna tıklandığında, kullanıcıya yandaki şekildeki gibi ekran açılır;
+   - Amerikan doları Alış/Satış
+   - Euro Alış/Satış
+   - Altın Alış/Satış
+   - Sterlin Alış/Satış
+   - Canada doları Alış/Satış
+   - Ruble Alış/Satış  
+         gibi işlemlerini hızlı bir şekilde gerçekleştirebilir.
+<p align="center">
+  <img width="300" height="600" src="https://user-images.githubusercontent.com/81168263/155000279-ff7a7350-7d4d-4e1e-aec7-0d030d914fac.jpg">
+</p> 
+
+
+
 
 
      
