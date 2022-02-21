@@ -17,6 +17,9 @@
     - Uygulamayı cep telefonuza indirip yüklediğinizde, Aşağıdaki resimde(ekran görüntüsü) görülen icon resmi ile
       cihazınıza yüklenmiş ve çalışır halde görülür.
     - İcon’a tıklandığında uygulama çalışmaya başlayacaktır.
+ <p align="center">
+  <>
+</p>   
 ![Screenshot_2021-01-06-19-52-20-701_com miui home](https://user-images.githubusercontent.com/81168263/154986057-7345195e-3772-477c-acba-2f120cf54257.jpg)
 
 ### Kayıt Ekranı
@@ -44,7 +47,7 @@
       Para Çekme/Yatırma işlemlerini gerçekleştirebilir.
     - Kullanıcı Yardım butonu resmine tıklayarak, Müşteri hizmetleri servisine bağlanıp bilgi alabilir.
     - Aynı zamanda, Kullanıcı Yatırım/Borsa butonu resmine tıklayarak güncel döviz kurlarını görebilir.
-![Sisteme Giriş Ekranı](https://user-images.githubusercontent.com/81168263/154994255-28568510-90f9-4f59-ae30-8ffe4c44f9d3.jpg)
+![Sisteme Giriş Ekranı](https://user-images.githubusercontent.com/81168263/154994255-28568510-90f9-4f59-ae30-8ffe4c44f9d3.jpg )
 
 
   
